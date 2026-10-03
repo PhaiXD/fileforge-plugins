@@ -1,0 +1,10 @@
+{
+  "id": "media-tools",
+  "name": "Media Downloader",
+  "version": "1.0.0",
+  "description": "YouTube, MP4, MP3, AV1",
+  "author": "PhaiXD",
+  "icon": "\ud83c\udfac",
+  "min_core_version": "2.0.0",
+  "tools": []
+}

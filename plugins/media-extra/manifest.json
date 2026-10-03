@@ -1,0 +1,71 @@
+﻿{
+  "id": "media-extra",
+  "name": "Media Tools (Extra)",
+  "version": "1.0.0",
+  "description": "Additional video and audio formats (MKV, AVI, OGG, FLAC)",
+  "author": "PhaiXD",
+  "icon": "🎞️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-ogg",
+      "name": "Audio to OGG",
+      "description": "Convert audio to OGG format",
+      "icon": "🎵",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".mp3", ".wav", ".m4a", ".mp4", ".mov", ".webm", ".mkv", ".avi"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-ogg", "{input_file}", "{output_file}"],
+      "output_ext": ".ogg"
+    },
+    {
+      "id": "to-flac",
+      "name": "Audio to FLAC",
+      "description": "Convert audio to lossless FLAC format",
+      "icon": "🎵",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".mp3", ".wav", ".m4a", ".mp4", ".mov", ".webm", ".mkv", ".avi"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-flac", "{input_file}", "{output_file}"],
+      "output_ext": ".flac"
+    },
+    {
+      "id": "to-mkv",
+      "name": "Video to MKV",
+      "description": "Convert video to MKV format",
+      "icon": "🎬",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".mp4", ".mov", ".webm", ".avi"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-mkv", "{input_file}", "{output_file}"],
+      "output_ext": ".mkv"
+    },
+    {
+      "id": "to-avi",
+      "name": "Video to AVI",
+      "description": "Convert video to AVI format",
+      "icon": "🎬",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".mp4", ".mov", ".webm", ".mkv"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-avi", "{input_file}", "{output_file}"],
+      "output_ext": ".avi"
+    }
+  ]
+}

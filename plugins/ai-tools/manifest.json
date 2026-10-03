@@ -1,0 +1,10 @@
+{
+  "id": "ai-tools",
+  "name": "AI Tools",
+  "version": "1.0.0",
+  "description": "Gemini summarization",
+  "author": "PhaiXD",
+  "icon": "\ud83e\udd16",
+  "min_core_version": "2.0.0",
+  "tools": []
+}

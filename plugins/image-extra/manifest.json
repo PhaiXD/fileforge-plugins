@@ -1,0 +1,89 @@
+﻿{
+  "id": "image-extra",
+  "name": "Image Tools (Extra)",
+  "version": "1.0.0",
+  "description": "Additional formats like SVG, ICO",
+  "author": "PhaiXD",
+  "icon": "📐",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "svg-png",
+      "name": "SVG to PNG",
+      "description": "Convert scalable vector graphics to PNG",
+      "icon": "✏️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".svg"]
+      },
+      "command": "plugin.bat",
+      "args": ["svg-png", "{input_file}", "{output_file}", "{width}"],
+      "output_ext": ".png",
+      "options": [
+        {
+          "id": "width",
+          "type": "number",
+          "label": "Width (px) (Optional)",
+          "default": "",
+          "min": 100
+        }
+      ]
+    },
+    {
+      "id": "svg-jpg",
+      "name": "SVG to JPG",
+      "description": "Convert scalable vector graphics to JPG",
+      "icon": "✏️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".svg"]
+      },
+      "command": "plugin.bat",
+      "args": ["svg-jpg", "{input_file}", "{output_file}", "{width}"],
+      "output_ext": ".jpg",
+      "options": [
+        {
+          "id": "width",
+          "type": "number",
+          "label": "Width (px) (Optional)",
+          "default": "",
+          "min": 100
+        }
+      ]
+    },
+    {
+      "id": "png-ico",
+      "name": "PNG to ICO",
+      "description": "Convert PNG to Windows Icon (.ico)",
+      "icon": "🎯",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".png"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-ico", "{input_file}", "{output_file}"],
+      "output_ext": ".ico"
+    },
+    {
+      "id": "jpg-ico",
+      "name": "JPG to ICO",
+      "description": "Convert JPG to Windows Icon (.ico)",
+      "icon": "🎯",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [".jpg", ".jpeg"]
+      },
+      "command": "plugin.bat",
+      "args": ["to-ico", "{input_file}", "{output_file}"],
+      "output_ext": ".ico"
+    }
+  ]
+}

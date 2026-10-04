@@ -7,9 +7,205 @@
       "version": "1.0.0",
       "description": "Core image conversions",
       "author": "PhaiXD",
-      "icon": "\ud83d\uddbc\ufe0f",
+      "icon": "🖼️",
       "category": "image",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/image-tools-v1.0.0/image-tools.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/image-tools-v1.0.0/image-tools.zip",
+      "tools": [
+        {
+          "id": "png-jpg",
+          "name": "PNG to JPG",
+          "description": "Convert PNG images to JPG format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "png-jpg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".jpg"
+        },
+        {
+          "id": "webp-jpg",
+          "name": "WEBP to JPG",
+          "description": "Convert WebP images to JPG format",
+          "icon": "🌐",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".webp"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "webp-jpg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".jpg"
+        },
+        {
+          "id": "heic-jpg",
+          "name": "HEIC to JPG",
+          "description": "Convert Apple HEIC to JPG format",
+          "icon": "📸",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".heic",
+              ".heif"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "heic-jpg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".jpg"
+        },
+        {
+          "id": "jpg-png",
+          "name": "JPG to PNG",
+          "description": "Convert JPG images to PNG format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "jpg-png",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".png"
+        },
+        {
+          "id": "webp-png",
+          "name": "WEBP to PNG",
+          "description": "Convert WebP images to PNG format",
+          "icon": "🌐",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".webp"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "webp-png",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".png"
+        },
+        {
+          "id": "heic-png",
+          "name": "HEIC to PNG",
+          "description": "Convert Apple HEIC to PNG format",
+          "icon": "📸",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".heic",
+              ".heif"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "heic-png",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".png"
+        },
+        {
+          "id": "jpg-webp",
+          "name": "JPG to WEBP",
+          "description": "Convert JPG images to WebP format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "jpg-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        },
+        {
+          "id": "png-webp",
+          "name": "PNG to WEBP",
+          "description": "Convert PNG images to WebP format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "png-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        },
+        {
+          "id": "heic-webp",
+          "name": "HEIC to WEBP",
+          "description": "Convert Apple HEIC to WebP format",
+          "icon": "📸",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".heic",
+              ".heif"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "heic-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        }
+      ]
     },
     {
       "id": "image-extra",
@@ -17,9 +213,116 @@
       "version": "1.0.0",
       "description": "Additional formats like SVG, ICO",
       "author": "PhaiXD",
-      "icon": "\ud83d\udcd0",
+      "icon": "📐",
       "category": "image",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/image-extra-v1.0.0/image-extra.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/image-extra-v1.0.0/image-extra.zip",
+      "tools": [
+        {
+          "id": "svg-png",
+          "name": "SVG to PNG",
+          "description": "Convert scalable vector graphics to PNG",
+          "icon": "✏️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".svg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "svg-png",
+            "{input_file}",
+            "{output_file}",
+            "{width}"
+          ],
+          "output_ext": ".png",
+          "options": [
+            {
+              "id": "width",
+              "type": "number",
+              "label": "Width (px) (Optional)",
+              "default": "",
+              "min": 100
+            }
+          ]
+        },
+        {
+          "id": "svg-jpg",
+          "name": "SVG to JPG",
+          "description": "Convert scalable vector graphics to JPG",
+          "icon": "✏️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".svg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "svg-jpg",
+            "{input_file}",
+            "{output_file}",
+            "{width}"
+          ],
+          "output_ext": ".jpg",
+          "options": [
+            {
+              "id": "width",
+              "type": "number",
+              "label": "Width (px) (Optional)",
+              "default": "",
+              "min": 100
+            }
+          ]
+        },
+        {
+          "id": "png-ico",
+          "name": "PNG to ICO",
+          "description": "Convert PNG to Windows Icon (.ico)",
+          "icon": "🎯",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-ico",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".ico"
+        },
+        {
+          "id": "jpg-ico",
+          "name": "JPG to ICO",
+          "description": "Convert JPG to Windows Icon (.ico)",
+          "icon": "🎯",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-ico",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".ico"
+        }
+      ]
     },
     {
       "id": "pdf-tools",
@@ -27,9 +330,10 @@
       "version": "1.0.0",
       "description": "All PDF tools",
       "author": "PhaiXD",
-      "icon": "\ud83d\udcc4",
+      "icon": "📄",
       "category": "pdf-docs",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/pdf-tools-v1.0.0/pdf-tools.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/pdf-tools-v1.0.0/pdf-tools.zip",
+      "tools": []
     },
     {
       "id": "media-tools",
@@ -37,9 +341,10 @@
       "version": "1.0.0",
       "description": "YouTube, MP4, MP3, AV1",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfac",
+      "icon": "🎬",
       "category": "video-audio",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/media-tools-v1.0.0/media-tools.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/media-tools-v1.0.0/media-tools.zip",
+      "tools": []
     },
     {
       "id": "media-extra",
@@ -47,9 +352,115 @@
       "version": "1.0.0",
       "description": "Additional media formats",
       "author": "PhaiXD",
-      "icon": "\ud83c\udf9e\ufe0f",
+      "icon": "🎞️",
       "category": "video-audio",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/media-extra-v1.0.0/media-extra.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/media-extra-v1.0.0/media-extra.zip",
+      "tools": [
+        {
+          "id": "to-ogg",
+          "name": "Audio to OGG",
+          "description": "Convert audio to OGG format",
+          "icon": "🎵",
+          "category": "video-audio",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".mp3",
+              ".wav",
+              ".m4a",
+              ".mp4",
+              ".mov",
+              ".webm",
+              ".mkv",
+              ".avi"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-ogg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".ogg"
+        },
+        {
+          "id": "to-flac",
+          "name": "Audio to FLAC",
+          "description": "Convert audio to lossless FLAC format",
+          "icon": "🎵",
+          "category": "video-audio",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".mp3",
+              ".wav",
+              ".m4a",
+              ".mp4",
+              ".mov",
+              ".webm",
+              ".mkv",
+              ".avi"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-flac",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".flac"
+        },
+        {
+          "id": "to-mkv",
+          "name": "Video to MKV",
+          "description": "Convert video to MKV format",
+          "icon": "🎬",
+          "category": "video-audio",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".mp4",
+              ".mov",
+              ".webm",
+              ".avi"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-mkv",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".mkv"
+        },
+        {
+          "id": "to-avi",
+          "name": "Video to AVI",
+          "description": "Convert video to AVI format",
+          "icon": "🎬",
+          "category": "video-audio",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".mp4",
+              ".mov",
+              ".webm",
+              ".mkv"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-avi",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".avi"
+        }
+      ]
     },
     {
       "id": "ai-tools",
@@ -57,9 +468,10 @@
       "version": "1.0.0",
       "description": "Gemini summarization",
       "author": "PhaiXD",
-      "icon": "\ud83e\udd16",
+      "icon": "🤖",
       "category": "ai",
-      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/ai-tools-v1.0.0/ai-tools.zip"
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/ai-tools-v1.0.0/ai-tools.zip",
+      "tools": []
     }
   ]
 }

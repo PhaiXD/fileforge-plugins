@@ -333,7 +333,88 @@
       "icon": "📄",
       "category": "pdf-docs",
       "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/pdf-tools-v1.0.0/pdf-tools.zip",
-      "tools": []
+      "tools": [
+        {
+          "id": "pdf-to-jpg",
+          "name": "PDF to JPG",
+          "description": "Convert PDF pages to JPG images",
+          "icon": "📄",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "pdf-png",
+          "name": "PDF to PNG",
+          "description": "Convert PDF pages to PNG images",
+          "icon": "🖼️",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "pdf-extract",
+          "name": "Extract PDF Pages",
+          "description": "Split or extract specific pages from a PDF",
+          "icon": "✂️",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "pdf-merge",
+          "name": "Merge PDFs",
+          "description": "Combine multiple PDFs into one",
+          "icon": "🔗",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "pdf-compress",
+          "name": "PDF Compressor",
+          "description": "Reduce PDF file size for sharing",
+          "icon": "📦",
+          "mode": "compress",
+          "category": "document"
+        },
+        {
+          "id": "images-to-pdf",
+          "name": "Images to PDF",
+          "description": "Merge multiple images into a single PDF",
+          "icon": "📑",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "image-pdf",
+          "name": "Image to PDF",
+          "description": "Convert a single image to PDF",
+          "icon": "📄",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "pdf-word",
+          "name": "PDF to Word",
+          "description": "Convert PDF to DOCX format",
+          "icon": "📝",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "word-pdf",
+          "name": "Word to PDF",
+          "description": "Convert DOCX to PDF format",
+          "icon": "📄",
+          "mode": "convert",
+          "category": "document"
+        },
+        {
+          "id": "excel-pdf",
+          "name": "Excel to PDF",
+          "description": "Convert Excel spreadsheet to PDF",
+          "icon": "📊",
+          "mode": "convert",
+          "category": "document"
+        }
+      ]
     },
     {
       "id": "media-tools",
@@ -344,7 +425,80 @@
       "icon": "🎬",
       "category": "video-audio",
       "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/media-tools-v1.0.0/media-tools.zip",
-      "tools": []
+      "tools": [
+        {
+          "id": "yt-mp4",
+          "name": "YouTube to MP4",
+          "description": "Download YouTube videos as MP4",
+          "icon": "🎬",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "yt-mp3",
+          "name": "YouTube to MP3",
+          "description": "Extract audio from YouTube videos",
+          "icon": "🎵",
+          "mode": "convert",
+          "category": "audio"
+        },
+        {
+          "id": "mp4-mp3",
+          "name": "MP4 to MP3",
+          "description": "Extract audio from MP4 video",
+          "icon": "🎧",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "mp4-m4a",
+          "name": "MP4 to M4A",
+          "description": "Extract audio from MP4 video (AAC)",
+          "icon": "🎧",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "mov-mp4",
+          "name": "MOV to MP4",
+          "description": "Convert QuickTime MOV to MP4",
+          "icon": "📹",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "webm-mp4",
+          "name": "WEBM to MP4",
+          "description": "Convert WEBM to MP4",
+          "icon": "📹",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "av1-mp4",
+          "name": "AV1 to MP4",
+          "description": "Convert AV1 to MP4",
+          "icon": "📹",
+          "mode": "convert",
+          "category": "video"
+        },
+        {
+          "id": "wav-mp3",
+          "name": "WAV to MP3",
+          "description": "Convert WAV audio to MP3",
+          "icon": "🎵",
+          "mode": "convert",
+          "category": "audio"
+        },
+        {
+          "id": "mp4-gif",
+          "name": "MP4 to GIF",
+          "description": "Convert MP4 to animated GIF",
+          "icon": "🖼️",
+          "mode": "convert",
+          "category": "video"
+        }
+      ]
     },
     {
       "id": "media-extra",
@@ -471,7 +625,24 @@
       "icon": "🤖",
       "category": "ai",
       "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/ai-tools-v1.0.0/ai-tools.zip",
-      "tools": []
+      "tools": [
+        {
+          "id": "ai-pdf",
+          "name": "Summarize PDF",
+          "description": "Extract and summarize PDF content using AI",
+          "icon": "📄",
+          "mode": "ai",
+          "category": "document"
+        },
+        {
+          "id": "ai-video",
+          "name": "Summarize Video",
+          "description": "Summarize YouTube video content using AI",
+          "icon": "🎬",
+          "mode": "ai",
+          "category": "video"
+        }
+      ]
     }
   ]
 }

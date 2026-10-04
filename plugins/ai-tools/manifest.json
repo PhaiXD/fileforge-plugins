@@ -2,9 +2,26 @@
   "id": "ai-tools",
   "name": "AI Tools",
   "version": "1.0.0",
-  "description": "Gemini summarization",
+  "description": "AI-powered summarization tools",
   "author": "PhaiXD",
-  "icon": "\ud83e\udd16",
+  "icon": "🤖",
   "min_core_version": "2.0.0",
-  "tools": []
+  "tools": [
+    {
+      "id": "ai-pdf",
+      "name": "Summarize PDF",
+      "description": "Extract and summarize PDF content using AI",
+      "icon": "📄",
+      "mode": "ai",
+      "category": "document"
+    },
+    {
+      "id": "ai-video",
+      "name": "Summarize Video",
+      "description": "Summarize YouTube video content using AI",
+      "icon": "🎬",
+      "mode": "ai",
+      "category": "video"
+    }
+  ]
 }

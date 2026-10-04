@@ -7,14 +7,14 @@
       "version": "1.0.0",
       "description": "Convert PNG images to JPG format",
       "author": "PhaiXD",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "png-jpg",
           "name": "PNG to JPG",
           "description": "Convert PNG images to JPG format",
-          "icon": "🖼️",
+          "icon": "\ud83d\uddbc\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -39,14 +39,14 @@
       "version": "1.0.0",
       "description": "Convert WebP images to JPG format",
       "author": "PhaiXD",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "webp-jpg",
           "name": "WEBP to JPG",
           "description": "Convert WebP images to JPG format",
-          "icon": "🌐",
+          "icon": "\ud83c\udf10",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -71,14 +71,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to JPG format",
       "author": "PhaiXD",
-      "icon": "📸",
+      "icon": "\ud83d\udcf8",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-jpg",
           "name": "HEIC to JPG",
           "description": "Convert Apple HEIC to JPG format",
-          "icon": "📸",
+          "icon": "\ud83d\udcf8",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -104,14 +104,14 @@
       "version": "1.0.0",
       "description": "Convert JPG images to PNG format",
       "author": "PhaiXD",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "jpg-png",
           "name": "JPG to PNG",
           "description": "Convert JPG images to PNG format",
-          "icon": "🖼️",
+          "icon": "\ud83d\uddbc\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -137,14 +137,14 @@
       "version": "1.0.0",
       "description": "Convert WebP images to PNG format",
       "author": "PhaiXD",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "webp-png",
           "name": "WEBP to PNG",
           "description": "Convert WebP images to PNG format",
-          "icon": "🌐",
+          "icon": "\ud83c\udf10",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -169,14 +169,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to PNG format",
       "author": "PhaiXD",
-      "icon": "📸",
+      "icon": "\ud83d\udcf8",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-png",
           "name": "HEIC to PNG",
           "description": "Convert Apple HEIC to PNG format",
-          "icon": "📸",
+          "icon": "\ud83d\udcf8",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -202,14 +202,14 @@
       "version": "1.0.0",
       "description": "Convert JPG images to WebP format",
       "author": "PhaiXD",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "jpg-webp",
           "name": "JPG to WEBP",
           "description": "Convert JPG images to WebP format",
-          "icon": "🖼️",
+          "icon": "\ud83d\uddbc\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -235,14 +235,14 @@
       "version": "1.0.0",
       "description": "Convert PNG images to WebP format",
       "author": "PhaiXD",
-      "icon": "🖼️",
+      "icon": "\ud83d\uddbc\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "png-webp",
           "name": "PNG to WEBP",
           "description": "Convert PNG images to WebP format",
-          "icon": "🖼️",
+          "icon": "\ud83d\uddbc\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -267,14 +267,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to WebP format",
       "author": "PhaiXD",
-      "icon": "📸",
+      "icon": "\ud83d\udcf8",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-webp",
           "name": "HEIC to WEBP",
           "description": "Convert Apple HEIC to WebP format",
-          "icon": "📸",
+          "icon": "\ud83d\udcf8",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -300,14 +300,14 @@
       "version": "1.0.0",
       "description": "Convert scalable vector graphics to PNG",
       "author": "PhaiXD",
-      "icon": "✏️",
+      "icon": "\u270f\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "svg-png",
           "name": "SVG to PNG",
           "description": "Convert scalable vector graphics to PNG",
-          "icon": "✏️",
+          "icon": "\u270f\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -342,14 +342,14 @@
       "version": "1.0.0",
       "description": "Convert scalable vector graphics to JPG",
       "author": "PhaiXD",
-      "icon": "✏️",
+      "icon": "\u270f\ufe0f",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "svg-jpg",
           "name": "SVG to JPG",
           "description": "Convert scalable vector graphics to JPG",
-          "icon": "✏️",
+          "icon": "\u270f\ufe0f",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -384,14 +384,14 @@
       "version": "1.0.0",
       "description": "Convert PNG to Windows Icon (.ico)",
       "author": "PhaiXD",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "png-ico",
           "name": "PNG to ICO",
           "description": "Convert PNG to Windows Icon (.ico)",
-          "icon": "🎯",
+          "icon": "\ud83c\udfaf",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -416,14 +416,14 @@
       "version": "1.0.0",
       "description": "Convert JPG to Windows Icon (.ico)",
       "author": "PhaiXD",
-      "icon": "🎯",
+      "icon": "\ud83c\udfaf",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "jpg-ico",
           "name": "JPG to ICO",
           "description": "Convert JPG to Windows Icon (.ico)",
-          "icon": "🎯",
+          "icon": "\ud83c\udfaf",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -444,380 +444,19 @@
       ]
     },
     {
-      "id": "pdf-to-jpg",
-      "name": "PDF to JPG",
-      "version": "1.0.0",
-      "description": "Convert PDF pages to JPG images",
-      "author": "PhaiXD",
-      "icon": "📄",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-to-jpg",
-          "name": "PDF to JPG",
-          "description": "Convert PDF pages to JPG images",
-          "icon": "📄",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "pdf-png",
-      "name": "PDF to PNG",
-      "version": "1.0.0",
-      "description": "Convert PDF pages to PNG images",
-      "author": "PhaiXD",
-      "icon": "🖼️",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-png",
-          "name": "PDF to PNG",
-          "description": "Convert PDF pages to PNG images",
-          "icon": "🖼️",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "pdf-extract",
-      "name": "Extract PDF Pages",
-      "version": "1.0.0",
-      "description": "Split or extract specific pages from a PDF",
-      "author": "PhaiXD",
-      "icon": "✂️",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-extract",
-          "name": "Extract PDF Pages",
-          "description": "Split or extract specific pages from a PDF",
-          "icon": "✂️",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "pdf-merge",
-      "name": "Merge PDFs",
-      "version": "1.0.0",
-      "description": "Combine multiple PDFs into one",
-      "author": "PhaiXD",
-      "icon": "🔗",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-merge",
-          "name": "Merge PDFs",
-          "description": "Combine multiple PDFs into one",
-          "icon": "🔗",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "pdf-compress",
-      "name": "PDF Compressor",
-      "version": "1.0.0",
-      "description": "Reduce PDF file size for sharing",
-      "author": "PhaiXD",
-      "icon": "📦",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-compress",
-          "name": "PDF Compressor",
-          "description": "Reduce PDF file size for sharing",
-          "icon": "📦",
-          "mode": "compress",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "images-to-pdf",
-      "name": "Images to PDF",
-      "version": "1.0.0",
-      "description": "Merge multiple images into a single PDF",
-      "author": "PhaiXD",
-      "icon": "📑",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "images-to-pdf",
-          "name": "Images to PDF",
-          "description": "Merge multiple images into a single PDF",
-          "icon": "📑",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "image-pdf",
-      "name": "Image to PDF",
-      "version": "1.0.0",
-      "description": "Convert a single image to PDF",
-      "author": "PhaiXD",
-      "icon": "📄",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "image-pdf",
-          "name": "Image to PDF",
-          "description": "Convert a single image to PDF",
-          "icon": "📄",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "pdf-word",
-      "name": "PDF to Word",
-      "version": "1.0.0",
-      "description": "Convert PDF to DOCX format",
-      "author": "PhaiXD",
-      "icon": "📝",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "pdf-word",
-          "name": "PDF to Word",
-          "description": "Convert PDF to DOCX format",
-          "icon": "📝",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "word-pdf",
-      "name": "Word to PDF",
-      "version": "1.0.0",
-      "description": "Convert DOCX to PDF format",
-      "author": "PhaiXD",
-      "icon": "📄",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "word-pdf",
-          "name": "Word to PDF",
-          "description": "Convert DOCX to PDF format",
-          "icon": "📄",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "excel-pdf",
-      "name": "Excel to PDF",
-      "version": "1.0.0",
-      "description": "Convert Excel spreadsheet to PDF",
-      "author": "PhaiXD",
-      "icon": "📊",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "excel-pdf",
-          "name": "Excel to PDF",
-          "description": "Convert Excel spreadsheet to PDF",
-          "icon": "📊",
-          "mode": "convert",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "yt-mp4",
-      "name": "YouTube to MP4",
-      "version": "1.0.0",
-      "description": "Download YouTube videos as MP4",
-      "author": "PhaiXD",
-      "icon": "🎬",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "yt-mp4",
-          "name": "YouTube to MP4",
-          "description": "Download YouTube videos as MP4",
-          "icon": "🎬",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "yt-mp3",
-      "name": "YouTube to MP3",
-      "version": "1.0.0",
-      "description": "Extract audio from YouTube videos",
-      "author": "PhaiXD",
-      "icon": "🎵",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "yt-mp3",
-          "name": "YouTube to MP3",
-          "description": "Extract audio from YouTube videos",
-          "icon": "🎵",
-          "mode": "convert",
-          "category": "audio"
-        }
-      ]
-    },
-    {
-      "id": "mp4-mp3",
-      "name": "MP4 to MP3",
-      "version": "1.0.0",
-      "description": "Extract audio from MP4 video",
-      "author": "PhaiXD",
-      "icon": "🎧",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "mp4-mp3",
-          "name": "MP4 to MP3",
-          "description": "Extract audio from MP4 video",
-          "icon": "🎧",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "mp4-m4a",
-      "name": "MP4 to M4A",
-      "version": "1.0.0",
-      "description": "Extract audio from MP4 video (AAC)",
-      "author": "PhaiXD",
-      "icon": "🎧",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "mp4-m4a",
-          "name": "MP4 to M4A",
-          "description": "Extract audio from MP4 video (AAC)",
-          "icon": "🎧",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "mov-mp4",
-      "name": "MOV to MP4",
-      "version": "1.0.0",
-      "description": "Convert QuickTime MOV to MP4",
-      "author": "PhaiXD",
-      "icon": "📹",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "mov-mp4",
-          "name": "MOV to MP4",
-          "description": "Convert QuickTime MOV to MP4",
-          "icon": "📹",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "webm-mp4",
-      "name": "WEBM to MP4",
-      "version": "1.0.0",
-      "description": "Convert WEBM to MP4",
-      "author": "PhaiXD",
-      "icon": "📹",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "webm-mp4",
-          "name": "WEBM to MP4",
-          "description": "Convert WEBM to MP4",
-          "icon": "📹",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "av1-mp4",
-      "name": "AV1 to MP4",
-      "version": "1.0.0",
-      "description": "Convert AV1 to MP4",
-      "author": "PhaiXD",
-      "icon": "📹",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "av1-mp4",
-          "name": "AV1 to MP4",
-          "description": "Convert AV1 to MP4",
-          "icon": "📹",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
-      "id": "wav-mp3",
-      "name": "WAV to MP3",
-      "version": "1.0.0",
-      "description": "Convert WAV audio to MP3",
-      "author": "PhaiXD",
-      "icon": "🎵",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "wav-mp3",
-          "name": "WAV to MP3",
-          "description": "Convert WAV audio to MP3",
-          "icon": "🎵",
-          "mode": "convert",
-          "category": "audio"
-        }
-      ]
-    },
-    {
-      "id": "mp4-gif",
-      "name": "MP4 to GIF",
-      "version": "1.0.0",
-      "description": "Convert MP4 to animated GIF",
-      "author": "PhaiXD",
-      "icon": "🖼️",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "mp4-gif",
-          "name": "MP4 to GIF",
-          "description": "Convert MP4 to animated GIF",
-          "icon": "🖼️",
-          "mode": "convert",
-          "category": "video"
-        }
-      ]
-    },
-    {
       "id": "to-ogg",
       "name": "Audio to OGG",
       "version": "1.0.0",
       "description": "Convert audio to OGG format",
       "author": "PhaiXD",
-      "icon": "🎵",
+      "icon": "\ud83c\udfb5",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-ogg",
           "name": "Audio to OGG",
           "description": "Convert audio to OGG format",
-          "icon": "🎵",
+          "icon": "\ud83c\udfb5",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -849,14 +488,14 @@
       "version": "1.0.0",
       "description": "Convert audio to lossless FLAC format",
       "author": "PhaiXD",
-      "icon": "🎵",
+      "icon": "\ud83c\udfb5",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-flac",
           "name": "Audio to FLAC",
           "description": "Convert audio to lossless FLAC format",
-          "icon": "🎵",
+          "icon": "\ud83c\udfb5",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -888,14 +527,14 @@
       "version": "1.0.0",
       "description": "Convert video to MKV format",
       "author": "PhaiXD",
-      "icon": "🎬",
+      "icon": "\ud83c\udfac",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-mkv",
           "name": "Video to MKV",
           "description": "Convert video to MKV format",
-          "icon": "🎬",
+          "icon": "\ud83c\udfac",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -923,14 +562,14 @@
       "version": "1.0.0",
       "description": "Convert video to AVI format",
       "author": "PhaiXD",
-      "icon": "🎬",
+      "icon": "\ud83c\udfac",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-avi",
           "name": "Video to AVI",
           "description": "Convert video to AVI format",
-          "icon": "🎬",
+          "icon": "\ud83c\udfac",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -949,44 +588,6 @@
             "{output_file}"
           ],
           "output_ext": ".avi"
-        }
-      ]
-    },
-    {
-      "id": "ai-pdf",
-      "name": "Summarize PDF",
-      "version": "1.0.0",
-      "description": "Extract and summarize PDF content using AI",
-      "author": "PhaiXD",
-      "icon": "📄",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "ai-pdf",
-          "name": "Summarize PDF",
-          "description": "Extract and summarize PDF content using AI",
-          "icon": "📄",
-          "mode": "ai",
-          "category": "document"
-        }
-      ]
-    },
-    {
-      "id": "ai-video",
-      "name": "Summarize Video",
-      "version": "1.0.0",
-      "description": "Summarize YouTube video content using AI",
-      "author": "PhaiXD",
-      "icon": "🎬",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "ai-video",
-          "name": "Summarize Video",
-          "description": "Summarize YouTube video content using AI",
-          "icon": "🎬",
-          "mode": "ai",
-          "category": "video"
         }
       ]
     }

@@ -1,0 +1,32 @@
+{
+  "id": "png-ico",
+  "name": "PNG to ICO",
+  "version": "1.0.0",
+  "description": "Convert PNG to Windows Icon (.ico)",
+  "author": "PhaiXD",
+  "icon": "🎯",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "png-ico",
+      "name": "PNG to ICO",
+      "description": "Convert PNG to Windows Icon (.ico)",
+      "icon": "🎯",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".png"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-ico",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".ico"
+    }
+  ]
+}

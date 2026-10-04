@@ -1,0 +1,19 @@
+{
+  "id": "pdf-to-jpg",
+  "name": "PDF to JPG",
+  "version": "1.0.0",
+  "description": "Convert PDF pages to JPG images",
+  "author": "PhaiXD",
+  "icon": "📄",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "pdf-to-jpg",
+      "name": "PDF to JPG",
+      "description": "Convert PDF pages to JPG images",
+      "icon": "📄",
+      "mode": "convert",
+      "category": "document"
+    }
+  ]
+}

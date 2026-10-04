@@ -1,0 +1,35 @@
+{
+  "id": "to-mkv",
+  "name": "Video to MKV",
+  "version": "1.0.0",
+  "description": "Convert video to MKV format",
+  "author": "PhaiXD",
+  "icon": "🎬",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-mkv",
+      "name": "Video to MKV",
+      "description": "Convert video to MKV format",
+      "icon": "🎬",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".mp4",
+          ".mov",
+          ".webm",
+          ".avi"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-mkv",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".mkv"
+    }
+  ]
+}

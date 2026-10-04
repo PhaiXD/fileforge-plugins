@@ -1,0 +1,33 @@
+{
+  "id": "jpg-webp",
+  "name": "JPG to WEBP",
+  "version": "1.0.0",
+  "description": "Convert JPG images to WebP format",
+  "author": "PhaiXD",
+  "icon": "🖼️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "jpg-webp",
+      "name": "JPG to WEBP",
+      "description": "Convert JPG images to WebP format",
+      "icon": "🖼️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".jpg",
+          ".jpeg"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "jpg-webp",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".webp"
+    }
+  ]
+}

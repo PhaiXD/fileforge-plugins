@@ -1,0 +1,32 @@
+{
+  "id": "png-jpg",
+  "name": "PNG to JPG",
+  "version": "1.0.0",
+  "description": "Convert PNG images to JPG format",
+  "author": "PhaiXD",
+  "icon": "🖼️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "png-jpg",
+      "name": "PNG to JPG",
+      "description": "Convert PNG images to JPG format",
+      "icon": "🖼️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".png"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "png-jpg",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".jpg"
+    }
+  ]
+}

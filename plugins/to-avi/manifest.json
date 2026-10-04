@@ -1,0 +1,35 @@
+{
+  "id": "to-avi",
+  "name": "Video to AVI",
+  "version": "1.0.0",
+  "description": "Convert video to AVI format",
+  "author": "PhaiXD",
+  "icon": "🎬",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-avi",
+      "name": "Video to AVI",
+      "description": "Convert video to AVI format",
+      "icon": "🎬",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".mp4",
+          ".mov",
+          ".webm",
+          ".mkv"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-avi",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".avi"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "jpg-ico",
+  "name": "JPG to ICO",
+  "version": "1.0.0",
+  "description": "Convert JPG to Windows Icon (.ico)",
+  "author": "PhaiXD",
+  "icon": "🎯",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "jpg-ico",
+      "name": "JPG to ICO",
+      "description": "Convert JPG to Windows Icon (.ico)",
+      "icon": "🎯",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".jpg",
+          ".jpeg"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-ico",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".ico"
+    }
+  ]
+}

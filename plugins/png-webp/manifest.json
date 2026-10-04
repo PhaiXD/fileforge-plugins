@@ -1,0 +1,32 @@
+{
+  "id": "png-webp",
+  "name": "PNG to WEBP",
+  "version": "1.0.0",
+  "description": "Convert PNG images to WebP format",
+  "author": "PhaiXD",
+  "icon": "🖼️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "png-webp",
+      "name": "PNG to WEBP",
+      "description": "Convert PNG images to WebP format",
+      "icon": "🖼️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".png"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "png-webp",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".webp"
+    }
+  ]
+}

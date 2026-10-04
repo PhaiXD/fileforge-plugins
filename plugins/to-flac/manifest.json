@@ -1,0 +1,39 @@
+{
+  "id": "to-flac",
+  "name": "Audio to FLAC",
+  "version": "1.0.0",
+  "description": "Convert audio to lossless FLAC format",
+  "author": "PhaiXD",
+  "icon": "🎵",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-flac",
+      "name": "Audio to FLAC",
+      "description": "Convert audio to lossless FLAC format",
+      "icon": "🎵",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".mp3",
+          ".wav",
+          ".m4a",
+          ".mp4",
+          ".mov",
+          ".webm",
+          ".mkv",
+          ".avi"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-flac",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".flac"
+    }
+  ]
+}

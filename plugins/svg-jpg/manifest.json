@@ -1,0 +1,42 @@
+{
+  "id": "svg-jpg",
+  "name": "SVG to JPG",
+  "version": "1.0.0",
+  "description": "Convert scalable vector graphics to JPG",
+  "author": "PhaiXD",
+  "icon": "✏️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "svg-jpg",
+      "name": "SVG to JPG",
+      "description": "Convert scalable vector graphics to JPG",
+      "icon": "✏️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".svg"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "svg-jpg",
+        "{input_file}",
+        "{output_file}",
+        "{width}"
+      ],
+      "output_ext": ".jpg",
+      "options": [
+        {
+          "id": "width",
+          "type": "number",
+          "label": "Width (px) (Optional)",
+          "default": "",
+          "min": 100
+        }
+      ]
+    }
+  ]
+}

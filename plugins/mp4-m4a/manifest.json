@@ -1,0 +1,19 @@
+{
+  "id": "mp4-m4a",
+  "name": "MP4 to M4A",
+  "version": "1.0.0",
+  "description": "Extract audio from MP4 video (AAC)",
+  "author": "PhaiXD",
+  "icon": "🎧",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "mp4-m4a",
+      "name": "MP4 to M4A",
+      "description": "Extract audio from MP4 video (AAC)",
+      "icon": "🎧",
+      "mode": "convert",
+      "category": "video"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "heic-webp",
+  "name": "HEIC to WEBP",
+  "version": "1.0.0",
+  "description": "Convert Apple HEIC to WebP format",
+  "author": "PhaiXD",
+  "icon": "📸",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "heic-webp",
+      "name": "HEIC to WEBP",
+      "description": "Convert Apple HEIC to WebP format",
+      "icon": "📸",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".heic",
+          ".heif"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "heic-webp",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".webp"
+    }
+  ]
+}

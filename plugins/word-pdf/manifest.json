@@ -1,0 +1,19 @@
+{
+  "id": "word-pdf",
+  "name": "Word to PDF",
+  "version": "1.0.0",
+  "description": "Convert DOCX to PDF format",
+  "author": "PhaiXD",
+  "icon": "📄",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "word-pdf",
+      "name": "Word to PDF",
+      "description": "Convert DOCX to PDF format",
+      "icon": "📄",
+      "mode": "convert",
+      "category": "document"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "to-ogg",
+  "name": "Audio to OGG",
+  "version": "1.0.0",
+  "description": "Convert audio to OGG format",
+  "author": "PhaiXD",
+  "icon": "🎵",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-ogg",
+      "name": "Audio to OGG",
+      "description": "Convert audio to OGG format",
+      "icon": "🎵",
+      "category": "video-audio",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".mp3",
+          ".wav",
+          ".m4a",
+          ".mp4",
+          ".mov",
+          ".webm",
+          ".mkv",
+          ".avi"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-ogg",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".ogg"
+    }
+  ]
+}

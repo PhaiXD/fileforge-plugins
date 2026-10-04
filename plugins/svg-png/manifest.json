@@ -1,0 +1,42 @@
+{
+  "id": "svg-png",
+  "name": "SVG to PNG",
+  "version": "1.0.0",
+  "description": "Convert scalable vector graphics to PNG",
+  "author": "PhaiXD",
+  "icon": "✏️",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "svg-png",
+      "name": "SVG to PNG",
+      "description": "Convert scalable vector graphics to PNG",
+      "icon": "✏️",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".svg"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "svg-png",
+        "{input_file}",
+        "{output_file}",
+        "{width}"
+      ],
+      "output_ext": ".png",
+      "options": [
+        {
+          "id": "width",
+          "type": "number",
+          "label": "Width (px) (Optional)",
+          "default": "",
+          "min": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "heic-png",
+  "name": "HEIC to PNG",
+  "version": "1.0.0",
+  "description": "Convert Apple HEIC to PNG format",
+  "author": "PhaiXD",
+  "icon": "📸",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "heic-png",
+      "name": "HEIC to PNG",
+      "description": "Convert Apple HEIC to PNG format",
+      "icon": "📸",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".heic",
+          ".heif"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "heic-png",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".png"
+    }
+  ]
+}

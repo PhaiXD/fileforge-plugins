@@ -1,0 +1,19 @@
+{
+  "id": "mov-mp4",
+  "name": "MOV to MP4",
+  "version": "1.0.0",
+  "description": "Convert QuickTime MOV to MP4",
+  "author": "PhaiXD",
+  "icon": "📹",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "mov-mp4",
+      "name": "MOV to MP4",
+      "description": "Convert QuickTime MOV to MP4",
+      "icon": "📹",
+      "mode": "convert",
+      "category": "video"
+    }
+  ]
+}

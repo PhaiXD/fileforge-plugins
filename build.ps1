@@ -1,19 +1,20 @@
-# Build script to package plugins into zip files
+# FileForge Plugins - Build & Package Script
 $pluginsDir = ".\plugins"
 $releasesDir = ".\releases"
+$registryFile = ".\registry.json"
 
 if (!(Test-Path -Path $releasesDir)) {
     New-Item -ItemType Directory -Path $releasesDir | Out-Null
 }
 
 $plugins = Get-ChildItem -Path $pluginsDir -Directory
+$registryPlugins = @()
 
 foreach ($plugin in $plugins) {
     $pluginName = $plugin.Name
-    # Read version from manifest
     $manifestPath = Join-Path $plugin.FullName "manifest.json"
     if (Test-Path $manifestPath) {
-        $manifest = Get-Content $manifestPath -Raw | ConvertFrom-Json
+        $manifest = Get-Content $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
         $version = $manifest.version
         $zipName = "$pluginName.zip"
         
@@ -24,11 +25,11 @@ foreach ($plugin in $plugins) {
         
         $zipPath = Join-Path $releaseSubDir $zipName
         if (Test-Path $zipPath) {
-            Remove-Item $zipPath
+            Remove-Item $zipPath -Force
         }
         
         Write-Host "Packaging $pluginName v$version -> $zipPath"
         Compress-Archive -Path "$($plugin.FullName)\*" -DestinationPath $zipPath -Force
     }
 }
-Write-Host "Done!"
+Write-Host "Packaging complete!"

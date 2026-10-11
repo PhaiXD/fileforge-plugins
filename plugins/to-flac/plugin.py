@@ -1,9 +1,7 @@
-﻿import argparse
+import argparse
 import sys
 import subprocess
-import uuid
 import os
-from pathlib import Path
 
 def convert_media(input_file: str, output_file: str, target_format: str):
     try:
@@ -29,18 +27,17 @@ def convert_media(input_file: str, output_file: str, target_format: str):
         sys.exit(1)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Media Extra Tools")
+    parser = argparse.ArgumentParser(description="Media Converter Tools")
     parser.add_argument("tool", choices=["to-ogg", "to-flac", "to-mkv", "to-avi"])
     parser.add_argument("input", help="Input file path")
     parser.add_argument("output", help="Output file path")
     
     args = parser.parse_args()
     
-    if args.tool == "to-ogg":
-        convert_media(args.input, args.output, "ogg")
-    elif args.tool == "to-flac":
-        convert_media(args.input, args.output, "flac")
-    elif args.tool == "to-mkv":
-        convert_media(args.input, args.output, "mkv")
-    elif args.tool == "to-avi":
-        convert_media(args.input, args.output, "avi")
+    fmt_map = {
+        "to-ogg": "ogg",
+        "to-flac": "flac",
+        "to-mkv": "mkv",
+        "to-avi": "avi",
+    }
+    convert_media(args.input, args.output, fmt_map.get(args.tool, "mp4"))

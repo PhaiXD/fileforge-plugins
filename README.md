@@ -6,7 +6,8 @@ FileForge's plugin system allows developers and users to easily extend the appli
 
 ## 🚀 How It Works
 
-FileForge dynamically loads plugins from this repository's egistry.json. 
+FileForge dynamically loads plugins from this repository's 
+egistry.json. 
 When a user installs a plugin via the FileForge UI:
 1. FileForge downloads the latest release .zip for that plugin from this repository.
 2. The plugin is extracted into the local %LOCALAPPDATA%\FileForge\plugins\ directory.
@@ -17,7 +18,7 @@ When a user installs a plugin via the FileForge UI:
 
 We maintain several core plugins that extend FileForge's native functionality:
 
-- **Image Tools:** Extended image format conversions (e.g., SVG, ICO, HEIC support).
+- **Image Tools:** Extended image format conversions (e.g., AVIF, SVG, ICO, HEIC support).
 - **Audio Tools:** Extended audio conversions (e.g., OGG, FLAC).
 - **Video Tools:** Extended video conversions (e.g., AVI, MKV).
 
@@ -107,7 +108,8 @@ To add your plugin to the official FileForge Store:
 1. Fork this repository.
 2. Create a new folder for your plugin inside the plugins/ directory.
 3. Add your manifest.json, plugin.bat, and plugin.py.
-4. Add your plugin's metadata to the egistry.json file in the root directory.
+4. Add your plugin's metadata to the 
+egistry.json file in the root directory.
 5. Submit a Pull Request!
 
 Once approved, your plugin will be packaged into a release and instantly available to all FileForge users globally via the in-app Plugin Store.

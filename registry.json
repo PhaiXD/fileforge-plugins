@@ -2,68 +2,109 @@
   "schema_version": "1.0.0",
   "plugins": [
     {
-      "id": "png-jpg",
-      "name": "PNG to JPG",
+      "id": "avif-jpg",
+      "name": "AVIF to JPG",
       "version": "1.0.0",
-      "description": "Convert PNG images to JPG format",
+      "description": "Convert AVIF images to JPG format",
       "author": "PhaiXD",
-      "icon": "\ud83d\uddbc\ufe0f",
+      "icon": "🎨",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "png-jpg",
-          "name": "PNG to JPG",
-          "description": "Convert PNG images to JPG format",
-          "icon": "\ud83d\uddbc\ufe0f",
+          "id": "avif-jpg",
+          "name": "AVIF to JPG",
+          "description": "Convert AVIF images to JPG format",
+          "icon": "🎨",
           "category": "image",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
-              ".png"
+              ".avif"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "png-jpg",
+            "avif-jpg",
             "{input_file}",
             "{output_file}"
           ],
           "output_ext": ".jpg"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/avif-jpg-v1.0.0/avif-jpg.zip",
+      "checksum_sha256": "1283fce2f7ae93895f13bd4950b37cfccb417fc2fc25dd6d16ea110ca24c438d",
+      "size_bytes": 1490
     },
     {
-      "id": "webp-jpg",
-      "name": "WEBP to JPG",
+      "id": "avif-png",
+      "name": "AVIF to PNG",
       "version": "1.0.0",
-      "description": "Convert WebP images to JPG format",
+      "description": "Convert AVIF images to PNG format",
       "author": "PhaiXD",
-      "icon": "\ud83c\udf10",
+      "icon": "🎨",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "webp-jpg",
-          "name": "WEBP to JPG",
-          "description": "Convert WebP images to JPG format",
-          "icon": "\ud83c\udf10",
+          "id": "avif-png",
+          "name": "AVIF to PNG",
+          "description": "Convert AVIF images to PNG format",
+          "icon": "🎨",
           "category": "image",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
-              ".webp"
+              ".avif"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "webp-jpg",
+            "avif-png",
             "{input_file}",
             "{output_file}"
           ],
-          "output_ext": ".jpg"
+          "output_ext": ".png"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/avif-png-v1.0.0/avif-png.zip",
+      "checksum_sha256": "955f573638aa40706e4889ef36e20b5ea345abf2e57924c594e8911ee5177918",
+      "size_bytes": 1489
+    },
+    {
+      "id": "avif-webp",
+      "name": "AVIF to WEBP",
+      "version": "1.0.0",
+      "description": "Convert AVIF images to WebP format",
+      "author": "PhaiXD",
+      "icon": "🎨",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "avif-webp",
+          "name": "AVIF to WEBP",
+          "description": "Convert AVIF images to WebP format",
+          "icon": "🎨",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".avif"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "avif-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/avif-webp-v1.0.0/avif-webp.zip",
+      "checksum_sha256": "143ef4ab7c738dc738dc64576bd955d74edec4a432673b24cf5c168f29002f29",
+      "size_bytes": 1493
     },
     {
       "id": "heic-jpg",
@@ -71,14 +112,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to JPG format",
       "author": "PhaiXD",
-      "icon": "\ud83d\udcf8",
+      "icon": "📸",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-jpg",
           "name": "HEIC to JPG",
           "description": "Convert Apple HEIC to JPG format",
-          "icon": "\ud83d\udcf8",
+          "icon": "📸",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -96,72 +137,10 @@
           ],
           "output_ext": ".jpg"
         }
-      ]
-    },
-    {
-      "id": "jpg-png",
-      "name": "JPG to PNG",
-      "version": "1.0.0",
-      "description": "Convert JPG images to PNG format",
-      "author": "PhaiXD",
-      "icon": "\ud83d\uddbc\ufe0f",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "jpg-png",
-          "name": "JPG to PNG",
-          "description": "Convert JPG images to PNG format",
-          "icon": "\ud83d\uddbc\ufe0f",
-          "category": "image",
-          "mode": "convert",
-          "inputs": {
-            "type": "file",
-            "accept": [
-              ".jpg",
-              ".jpeg"
-            ]
-          },
-          "command": "plugin.bat",
-          "args": [
-            "jpg-png",
-            "{input_file}",
-            "{output_file}"
-          ],
-          "output_ext": ".png"
-        }
-      ]
-    },
-    {
-      "id": "webp-png",
-      "name": "WEBP to PNG",
-      "version": "1.0.0",
-      "description": "Convert WebP images to PNG format",
-      "author": "PhaiXD",
-      "icon": "\ud83c\udf10",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "webp-png",
-          "name": "WEBP to PNG",
-          "description": "Convert WebP images to PNG format",
-          "icon": "\ud83c\udf10",
-          "category": "image",
-          "mode": "convert",
-          "inputs": {
-            "type": "file",
-            "accept": [
-              ".webp"
-            ]
-          },
-          "command": "plugin.bat",
-          "args": [
-            "webp-png",
-            "{input_file}",
-            "{output_file}"
-          ],
-          "output_ext": ".png"
-        }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/heic-jpg-v1.0.0/heic-jpg.zip",
+      "checksum_sha256": "e6c796826bb1c8e0d9933f88964367adc498a9becb43b9bb331d694f50b4f126",
+      "size_bytes": 1284
     },
     {
       "id": "heic-png",
@@ -169,14 +148,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to PNG format",
       "author": "PhaiXD",
-      "icon": "\ud83d\udcf8",
+      "icon": "📸",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-png",
           "name": "HEIC to PNG",
           "description": "Convert Apple HEIC to PNG format",
-          "icon": "\ud83d\udcf8",
+          "icon": "📸",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -194,72 +173,10 @@
           ],
           "output_ext": ".png"
         }
-      ]
-    },
-    {
-      "id": "jpg-webp",
-      "name": "JPG to WEBP",
-      "version": "1.0.0",
-      "description": "Convert JPG images to WebP format",
-      "author": "PhaiXD",
-      "icon": "\ud83d\uddbc\ufe0f",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "jpg-webp",
-          "name": "JPG to WEBP",
-          "description": "Convert JPG images to WebP format",
-          "icon": "\ud83d\uddbc\ufe0f",
-          "category": "image",
-          "mode": "convert",
-          "inputs": {
-            "type": "file",
-            "accept": [
-              ".jpg",
-              ".jpeg"
-            ]
-          },
-          "command": "plugin.bat",
-          "args": [
-            "jpg-webp",
-            "{input_file}",
-            "{output_file}"
-          ],
-          "output_ext": ".webp"
-        }
-      ]
-    },
-    {
-      "id": "png-webp",
-      "name": "PNG to WEBP",
-      "version": "1.0.0",
-      "description": "Convert PNG images to WebP format",
-      "author": "PhaiXD",
-      "icon": "\ud83d\uddbc\ufe0f",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "png-webp",
-          "name": "PNG to WEBP",
-          "description": "Convert PNG images to WebP format",
-          "icon": "\ud83d\uddbc\ufe0f",
-          "category": "image",
-          "mode": "convert",
-          "inputs": {
-            "type": "file",
-            "accept": [
-              ".png"
-            ]
-          },
-          "command": "plugin.bat",
-          "args": [
-            "png-webp",
-            "{input_file}",
-            "{output_file}"
-          ],
-          "output_ext": ".webp"
-        }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/heic-png-v1.0.0/heic-png.zip",
+      "checksum_sha256": "a57f5dbb6c8a10b162c2f5311ecf388bf77b5aacfcd387bc61f81da78fa716d7",
+      "size_bytes": 1284
     },
     {
       "id": "heic-webp",
@@ -267,14 +184,14 @@
       "version": "1.0.0",
       "description": "Convert Apple HEIC to WebP format",
       "author": "PhaiXD",
-      "icon": "\ud83d\udcf8",
+      "icon": "📸",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "heic-webp",
           "name": "HEIC to WEBP",
           "description": "Convert Apple HEIC to WebP format",
-          "icon": "\ud83d\udcf8",
+          "icon": "📸",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -292,49 +209,294 @@
           ],
           "output_ext": ".webp"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/heic-webp-v1.0.0/heic-webp.zip",
+      "checksum_sha256": "4f31fa9d5afe18b2a49604e93ce1b3c947c9b3f9b129c037c9b52ffefc1ea805",
+      "size_bytes": 1289
     },
     {
-      "id": "svg-png",
-      "name": "SVG to PNG",
+      "id": "jpg-avif",
+      "name": "JPG to AVIF",
       "version": "1.0.0",
-      "description": "Convert scalable vector graphics to PNG",
+      "description": "Convert JPG images to AVIF format",
       "author": "PhaiXD",
-      "icon": "\u270f\ufe0f",
+      "icon": "🎨",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "svg-png",
-          "name": "SVG to PNG",
-          "description": "Convert scalable vector graphics to PNG",
-          "icon": "\u270f\ufe0f",
+          "id": "jpg-avif",
+          "name": "JPG to AVIF",
+          "description": "Convert JPG images to AVIF format",
+          "icon": "🎨",
           "category": "image",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
-              ".svg"
+              ".jpg",
+              ".jpeg"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "svg-png",
+            "jpg-avif",
             "{input_file}",
-            "{output_file}",
-            "{width}"
+            "{output_file}"
           ],
-          "output_ext": ".png",
-          "options": [
-            {
-              "id": "width",
-              "type": "number",
-              "label": "Width (px) (Optional)",
-              "default": "",
-              "min": 100
-            }
-          ]
+          "output_ext": ".avif"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/jpg-avif-v1.0.0/jpg-avif.zip",
+      "checksum_sha256": "66e6b01981a8814b92431cdfa2982a6c8a6115756a66812682da3186cb00c193",
+      "size_bytes": 1494
+    },
+    {
+      "id": "jpg-ico",
+      "name": "JPG to ICO",
+      "version": "1.0.0",
+      "description": "Convert JPG to Windows Icon (.ico)",
+      "author": "PhaiXD",
+      "icon": "🎯",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "jpg-ico",
+          "name": "JPG to ICO",
+          "description": "Convert JPG to Windows Icon (.ico)",
+          "icon": "🎯",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-ico",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".ico"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/jpg-ico-v1.0.0/jpg-ico.zip",
+      "checksum_sha256": "579d6715c716d574ddd3ef80c3a4bb8d303f94201d70d1ab5085b0fe14543703",
+      "size_bytes": 1553
+    },
+    {
+      "id": "jpg-png",
+      "name": "JPG to PNG",
+      "version": "1.0.0",
+      "description": "Convert JPG images to PNG format",
+      "author": "PhaiXD",
+      "icon": "🖼️",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "jpg-png",
+          "name": "JPG to PNG",
+          "description": "Convert JPG images to PNG format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "jpg-png",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".png"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/jpg-png-v1.0.0/jpg-png.zip",
+      "checksum_sha256": "dbf19b4864e9772d312b9290d5d649d9bee7dc4c41d822bd05f458cede1f5752",
+      "size_bytes": 1288
+    },
+    {
+      "id": "jpg-webp",
+      "name": "JPG to WEBP",
+      "version": "1.0.0",
+      "description": "Convert JPG images to WebP format",
+      "author": "PhaiXD",
+      "icon": "🖼️",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "jpg-webp",
+          "name": "JPG to WEBP",
+          "description": "Convert JPG images to WebP format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".jpg",
+              ".jpeg"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "jpg-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/jpg-webp-v1.0.0/jpg-webp.zip",
+      "checksum_sha256": "46899c3ebe2c631895c4edd9446cd376bf6fa48e2cd7ed9e6952f9eff172ad58",
+      "size_bytes": 1293
+    },
+    {
+      "id": "png-avif",
+      "name": "PNG to AVIF",
+      "version": "1.0.0",
+      "description": "Convert PNG images to AVIF format",
+      "author": "PhaiXD",
+      "icon": "🎨",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "png-avif",
+          "name": "PNG to AVIF",
+          "description": "Convert PNG images to AVIF format",
+          "icon": "🎨",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "png-avif",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".avif"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/png-avif-v1.0.0/png-avif.zip",
+      "checksum_sha256": "ee687feeafa41a93249775684653e8cb5a1332560ed630811ca507ad92e7077c",
+      "size_bytes": 1488
+    },
+    {
+      "id": "png-ico",
+      "name": "PNG to ICO",
+      "version": "1.0.0",
+      "description": "Convert PNG to Windows Icon (.ico)",
+      "author": "PhaiXD",
+      "icon": "🎯",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "png-ico",
+          "name": "PNG to ICO",
+          "description": "Convert PNG to Windows Icon (.ico)",
+          "icon": "🎯",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-ico",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".ico"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/png-ico-v1.0.0/png-ico.zip",
+      "checksum_sha256": "b7a0742b58fb65c6a59b0d12dece0dc4b0e48dacb4d0d2de6372dc8888607cb6",
+      "size_bytes": 1545
+    },
+    {
+      "id": "png-jpg",
+      "name": "PNG to JPG",
+      "version": "1.0.0",
+      "description": "Convert PNG images to JPG format",
+      "author": "PhaiXD",
+      "icon": "🖼️",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "png-jpg",
+          "name": "PNG to JPG",
+          "description": "Convert PNG images to JPG format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "png-jpg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".jpg"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/png-jpg-v1.0.0/png-jpg.zip",
+      "checksum_sha256": "70d7f72655c04389717baf04b41a689b823a5b7aee48ee933e5c1f02fa0f1e92",
+      "size_bytes": 1282
+    },
+    {
+      "id": "png-webp",
+      "name": "PNG to WEBP",
+      "version": "1.0.0",
+      "description": "Convert PNG images to WebP format",
+      "author": "PhaiXD",
+      "icon": "🖼️",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "png-webp",
+          "name": "PNG to WEBP",
+          "description": "Convert PNG images to WebP format",
+          "icon": "🖼️",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".png"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "png-webp",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".webp"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/png-webp-v1.0.0/png-webp.zip",
+      "checksum_sha256": "ad2c5905716e23770e299d8c3f6c56631848499e6905ea7b9e75b4f31c5de2c9",
+      "size_bytes": 1287
     },
     {
       "id": "svg-jpg",
@@ -342,14 +504,14 @@
       "version": "1.0.0",
       "description": "Convert scalable vector graphics to JPG",
       "author": "PhaiXD",
-      "icon": "\u270f\ufe0f",
+      "icon": "✏️",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "svg-jpg",
           "name": "SVG to JPG",
           "description": "Convert scalable vector graphics to JPG",
-          "icon": "\u270f\ufe0f",
+          "icon": "✏️",
           "category": "image",
           "mode": "convert",
           "inputs": {
@@ -376,111 +538,134 @@
             }
           ]
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/svg-jpg-v1.0.0/svg-jpg.zip",
+      "checksum_sha256": "418680598df0b8cc71ba252e2a59fd42fd8bd07042078785ca720751e538b522",
+      "size_bytes": 1619
     },
     {
-      "id": "png-ico",
-      "name": "PNG to ICO",
+      "id": "svg-png",
+      "name": "SVG to PNG",
       "version": "1.0.0",
-      "description": "Convert PNG to Windows Icon (.ico)",
+      "description": "Convert scalable vector graphics to PNG",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfaf",
+      "icon": "✏️",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "png-ico",
-          "name": "PNG to ICO",
-          "description": "Convert PNG to Windows Icon (.ico)",
-          "icon": "\ud83c\udfaf",
+          "id": "svg-png",
+          "name": "SVG to PNG",
+          "description": "Convert scalable vector graphics to PNG",
+          "icon": "✏️",
           "category": "image",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
-              ".png"
+              ".svg"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "to-ico",
+            "svg-png",
             "{input_file}",
-            "{output_file}"
+            "{output_file}",
+            "{width}"
           ],
-          "output_ext": ".ico"
+          "output_ext": ".png",
+          "options": [
+            {
+              "id": "width",
+              "type": "number",
+              "label": "Width (px) (Optional)",
+              "default": "",
+              "min": 100
+            }
+          ]
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/svg-png-v1.0.0/svg-png.zip",
+      "checksum_sha256": "b6824917b4b178f1377634abe3a8a636a25af4c7aed1e97e165a7b793a9c6d70",
+      "size_bytes": 1618
     },
     {
-      "id": "jpg-ico",
-      "name": "JPG to ICO",
+      "id": "to-avi",
+      "name": "Video to AVI",
       "version": "1.0.0",
-      "description": "Convert JPG to Windows Icon (.ico)",
+      "description": "Convert video to AVI format",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfaf",
+      "icon": "🎬",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "jpg-ico",
-          "name": "JPG to ICO",
-          "description": "Convert JPG to Windows Icon (.ico)",
-          "icon": "\ud83c\udfaf",
+          "id": "to-avi",
+          "name": "Video to AVI",
+          "description": "Convert video to AVI format",
+          "icon": "🎬",
+          "category": "video-audio",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".mp4",
+              ".mov",
+              ".webm",
+              ".mkv"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "to-avi",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".avi"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/to-avi-v1.0.0/to-avi.zip",
+      "checksum_sha256": "4c7f29b355b349d7d6d60a422bd09a0b8b6b07d5a79628705934b03bfd4d419a",
+      "size_bytes": 1296
+    },
+    {
+      "id": "to-avif",
+      "name": "Image to AVIF",
+      "version": "1.0.0",
+      "description": "Convert any image (JPG, PNG, WebP, HEIC) to modern AVIF format",
+      "author": "PhaiXD",
+      "icon": "🎨",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "to-avif",
+          "name": "Image to AVIF",
+          "description": "Convert any image (JPG, PNG, WebP, HEIC) to modern AVIF format",
+          "icon": "🎨",
           "category": "image",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
               ".jpg",
-              ".jpeg"
+              ".jpeg",
+              ".png",
+              ".webp",
+              ".heic",
+              ".heif",
+              ".bmp"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "to-ico",
+            "to-avif",
             "{input_file}",
             "{output_file}"
           ],
-          "output_ext": ".ico"
+          "output_ext": ".avif"
         }
-      ]
-    },
-    {
-      "id": "to-ogg",
-      "name": "Audio to OGG",
-      "version": "1.0.0",
-      "description": "Convert audio to OGG format",
-      "author": "PhaiXD",
-      "icon": "\ud83c\udfb5",
-      "min_core_version": "2.0.0",
-      "tools": [
-        {
-          "id": "to-ogg",
-          "name": "Audio to OGG",
-          "description": "Convert audio to OGG format",
-          "icon": "\ud83c\udfb5",
-          "category": "video-audio",
-          "mode": "convert",
-          "inputs": {
-            "type": "file",
-            "accept": [
-              ".mp3",
-              ".wav",
-              ".m4a",
-              ".mp4",
-              ".mov",
-              ".webm",
-              ".mkv",
-              ".avi"
-            ]
-          },
-          "command": "plugin.bat",
-          "args": [
-            "to-ogg",
-            "{input_file}",
-            "{output_file}"
-          ],
-          "output_ext": ".ogg"
-        }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/to-avif-v1.0.0/to-avif.zip",
+      "checksum_sha256": "569b97a31a61be61feefc3139a22d91986b7de2a0e3a442671378f4617a4a4fe",
+      "size_bytes": 1540
     },
     {
       "id": "to-flac",
@@ -488,14 +673,14 @@
       "version": "1.0.0",
       "description": "Convert audio to lossless FLAC format",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfb5",
+      "icon": "🎵",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-flac",
           "name": "Audio to FLAC",
           "description": "Convert audio to lossless FLAC format",
-          "icon": "\ud83c\udfb5",
+          "icon": "🎵",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -519,7 +704,10 @@
           ],
           "output_ext": ".flac"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/to-flac-v1.0.0/to-flac.zip",
+      "checksum_sha256": "245d84366f52f3a031c9e9a818b91b8404f6787b89fa5a45e3446e894cdd139a",
+      "size_bytes": 1320
     },
     {
       "id": "to-mkv",
@@ -527,14 +715,14 @@
       "version": "1.0.0",
       "description": "Convert video to MKV format",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfac",
+      "icon": "🎬",
       "min_core_version": "2.0.0",
       "tools": [
         {
           "id": "to-mkv",
           "name": "Video to MKV",
           "description": "Convert video to MKV format",
-          "icon": "\ud83c\udfac",
+          "icon": "🎬",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
@@ -554,42 +742,157 @@
           ],
           "output_ext": ".mkv"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/to-mkv-v1.0.0/to-mkv.zip",
+      "checksum_sha256": "54e1d1f5d51f62f929f243895f2c5b241100f8f9b448b167a86a52a1e6acda9a",
+      "size_bytes": 1297
     },
     {
-      "id": "to-avi",
-      "name": "Video to AVI",
+      "id": "to-ogg",
+      "name": "Audio to OGG",
       "version": "1.0.0",
-      "description": "Convert video to AVI format",
+      "description": "Convert audio to OGG format",
       "author": "PhaiXD",
-      "icon": "\ud83c\udfac",
+      "icon": "🎵",
       "min_core_version": "2.0.0",
       "tools": [
         {
-          "id": "to-avi",
-          "name": "Video to AVI",
-          "description": "Convert video to AVI format",
-          "icon": "\ud83c\udfac",
+          "id": "to-ogg",
+          "name": "Audio to OGG",
+          "description": "Convert audio to OGG format",
+          "icon": "🎵",
           "category": "video-audio",
           "mode": "convert",
           "inputs": {
             "type": "file",
             "accept": [
+              ".mp3",
+              ".wav",
+              ".m4a",
               ".mp4",
               ".mov",
               ".webm",
-              ".mkv"
+              ".mkv",
+              ".avi"
             ]
           },
           "command": "plugin.bat",
           "args": [
-            "to-avi",
+            "to-ogg",
             "{input_file}",
             "{output_file}"
           ],
-          "output_ext": ".avi"
+          "output_ext": ".ogg"
         }
-      ]
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/to-ogg-v1.0.0/to-ogg.zip",
+      "checksum_sha256": "6d8a7bec2c2e3f6e49a99b100eec33d84a41cb5c4272525d37391021fa17bcba",
+      "size_bytes": 1309
+    },
+    {
+      "id": "webp-avif",
+      "name": "WEBP to AVIF",
+      "version": "1.0.0",
+      "description": "Convert WebP images to AVIF format",
+      "author": "PhaiXD",
+      "icon": "🎨",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "webp-avif",
+          "name": "WEBP to AVIF",
+          "description": "Convert WebP images to AVIF format",
+          "icon": "🎨",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".webp"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "webp-avif",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".avif"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/webp-avif-v1.0.0/webp-avif.zip",
+      "checksum_sha256": "0f953d4164d62f2ef95edd20e4a4dc499f35a2a20639a0047a25b7e67b4780c7",
+      "size_bytes": 1493
+    },
+    {
+      "id": "webp-jpg",
+      "name": "WEBP to JPG",
+      "version": "1.0.0",
+      "description": "Convert WebP images to JPG format",
+      "author": "PhaiXD",
+      "icon": "🌐",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "webp-jpg",
+          "name": "WEBP to JPG",
+          "description": "Convert WebP images to JPG format",
+          "icon": "🌐",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".webp"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "webp-jpg",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".jpg"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/webp-jpg-v1.0.0/webp-jpg.zip",
+      "checksum_sha256": "383912fcbf2bf13acca48e5e592ef10ca841ba4fbc83eca55328ad92481663be",
+      "size_bytes": 1282
+    },
+    {
+      "id": "webp-png",
+      "name": "WEBP to PNG",
+      "version": "1.0.0",
+      "description": "Convert WebP images to PNG format",
+      "author": "PhaiXD",
+      "icon": "🌐",
+      "min_core_version": "2.0.0",
+      "tools": [
+        {
+          "id": "webp-png",
+          "name": "WEBP to PNG",
+          "description": "Convert WebP images to PNG format",
+          "icon": "🌐",
+          "category": "image",
+          "mode": "convert",
+          "inputs": {
+            "type": "file",
+            "accept": [
+              ".webp"
+            ]
+          },
+          "command": "plugin.bat",
+          "args": [
+            "webp-png",
+            "{input_file}",
+            "{output_file}"
+          ],
+          "output_ext": ".png"
+        }
+      ],
+      "download_url": "https://github.com/PhaiXD/fileforge-plugins/releases/download/webp-png-v1.0.0/webp-png.zip",
+      "checksum_sha256": "3ec1fb5bcb07babb4aa05ba1c54738a6008419176af25259ba61f887dc6bd410",
+      "size_bytes": 1281
     }
   ]
 }

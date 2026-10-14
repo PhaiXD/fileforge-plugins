@@ -1,0 +1,38 @@
+{
+  "id": "to-avif",
+  "name": "Image to AVIF",
+  "version": "1.0.0",
+  "description": "Convert any image (JPG, PNG, WebP, HEIC) to modern AVIF format",
+  "author": "PhaiXD",
+  "icon": "🎨",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "to-avif",
+      "name": "Image to AVIF",
+      "description": "Convert any image (JPG, PNG, WebP, HEIC) to modern AVIF format",
+      "icon": "🎨",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".jpg",
+          ".jpeg",
+          ".png",
+          ".webp",
+          ".heic",
+          ".heif",
+          ".bmp"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "to-avif",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".avif"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "png-avif",
+  "name": "PNG to AVIF",
+  "version": "1.0.0",
+  "description": "Convert PNG images to AVIF format",
+  "author": "PhaiXD",
+  "icon": "🎨",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "png-avif",
+      "name": "PNG to AVIF",
+      "description": "Convert PNG images to AVIF format",
+      "icon": "🎨",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".png"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "png-avif",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".avif"
+    }
+  ]
+}

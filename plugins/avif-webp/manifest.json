@@ -1,0 +1,32 @@
+{
+  "id": "avif-webp",
+  "name": "AVIF to WEBP",
+  "version": "1.0.0",
+  "description": "Convert AVIF images to WebP format",
+  "author": "PhaiXD",
+  "icon": "🎨",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "avif-webp",
+      "name": "AVIF to WEBP",
+      "description": "Convert AVIF images to WebP format",
+      "icon": "🎨",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".avif"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "avif-webp",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".webp"
+    }
+  ]
+}

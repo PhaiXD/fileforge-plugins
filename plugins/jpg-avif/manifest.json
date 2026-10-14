@@ -1,0 +1,33 @@
+{
+  "id": "jpg-avif",
+  "name": "JPG to AVIF",
+  "version": "1.0.0",
+  "description": "Convert JPG images to AVIF format",
+  "author": "PhaiXD",
+  "icon": "🎨",
+  "min_core_version": "2.0.0",
+  "tools": [
+    {
+      "id": "jpg-avif",
+      "name": "JPG to AVIF",
+      "description": "Convert JPG images to AVIF format",
+      "icon": "🎨",
+      "category": "image",
+      "mode": "convert",
+      "inputs": {
+        "type": "file",
+        "accept": [
+          ".jpg",
+          ".jpeg"
+        ]
+      },
+      "command": "plugin.bat",
+      "args": [
+        "jpg-avif",
+        "{input_file}",
+        "{output_file}"
+      ],
+      "output_ext": ".avif"
+    }
+  ]
+}
